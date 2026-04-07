@@ -3,8 +3,8 @@ FROM node:20-alpine
 WORKDIR /app
 
 COPY package.json ./package.json
-COPY src/server.js ./src/server.js
+COPY server.js ./server.js
 
 EXPOSE 3000
 
-CMD ["node", "src/server.js"]
+CMD ["node", "server.js"]

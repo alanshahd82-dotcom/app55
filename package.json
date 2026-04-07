@@ -2,8 +2,8 @@
   "name": "m3u8-resolver",
   "version": "1.0.0",
   "type": "module",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node server.js"
   }
 }
